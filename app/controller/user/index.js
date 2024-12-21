@@ -23,7 +23,7 @@ class UserController extends Controller {
   // 修改
   async modifyUser() {
     const ctx = this.ctx;
-    const user = await ctx.service.user.index.login(ctx.query);
+    const user = await ctx.service.user.index.modifyUser(ctx.query);
     ctx.body = {
       user,
     };

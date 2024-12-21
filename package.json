@@ -9,6 +9,7 @@
   "dependencies": {
     "egg": "^3.17.5",
     "egg-scripts": "2",
+    "jsonwebtoken": "^9.0.2",
     "uuid": "^11.0.3"
   },
   "devDependencies": {
