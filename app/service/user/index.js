@@ -22,7 +22,7 @@ class UserService extends Service {
       throw '密码错误！';
     }
 
-    const token = this.createToken({ userId: userInfo.userId });
+    const token = this.createToken({ userInfo });
 
     return {
       ...userInfo,
